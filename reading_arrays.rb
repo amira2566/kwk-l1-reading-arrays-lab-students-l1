@@ -1,11 +1,20 @@
-STUDENT_NAMES = [
-  "Adele",
-  "Beyoncé",
-  "Cardi B",
-  "Lady Gaga",
-  "Nicki Minaj",
-  "Rihanna"
-]
+student_names= ["Adele", "Beyoncé", "Cardi B","Lady Gaga","Nicki Minaj", "Rihanna"]
+
+student_names=["Adele"]
+
+puts student_names
+puts student_names[3]
+
+student_names.push("Rihanna")
+
+
+
+
+
+
+
+
+
 
 def first_student_by_index
   # Write a solution that returns the first student in the array student_names
